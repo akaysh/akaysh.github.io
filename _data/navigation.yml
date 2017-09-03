@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "About"
+    url: https://akaysh.github.io/about/
+  - title: "Portfolio"
+    url: https://akaysh.github.io/portfolio/
+  - title: "Tutorials"
+    url: https://akaysh.github.io/tutorials/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
