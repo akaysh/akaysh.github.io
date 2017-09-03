@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Akshay Sharma"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a Software Engineer who works at Intuit "
   location         : "Bangalore"
   email            : "ksh.shrm1@gmail.com"
