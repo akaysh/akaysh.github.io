@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "About"
-    url: https://akaysh.github.io/about/
+    url: https://akaysh.github.io/about.md
   - title: "Portfolio"
     url: https://akaysh.github.io/portfolio/
   - title: "Tutorials"
