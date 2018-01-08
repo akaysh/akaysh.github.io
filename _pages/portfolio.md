@@ -14,6 +14,4 @@ Avinash Sharma, Akshay Sharma et al. , Ageist Spider Monkey Optimization Algorit
 Journal, Swarm and Evolutionary Computation June 2016, Pages 58–77.
 Click [here](https://www.sciencedirect.com/science/article/pii/S2210650216000122) for paper link.
 
-I did a poster presentation for my project during my GSoC 2017 intern during JuliaCon 2017 in Berkely. Here is the link for its [write up](https://julialang.org/blog/2017/10/gsoc-NeuralNetDiffEq). 
-
-
+I did a poster presentation for my project during my GSoC 2017 intern during JuliaCon 2017 in Berkely. Here is the link for its [write up](https://julialang.org/blog/2017/10/gsoc-NeuralNetDiffEq).
