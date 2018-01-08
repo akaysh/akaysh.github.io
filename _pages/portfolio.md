@@ -3,7 +3,6 @@ permalink: /portfolio/
 published: true
 ---
 
-## Portfolio
 
 I am a software developer currently working at Intuit IDC. I recently (May 2017) graduated (B.Tech) from National Institute of Technology, Karnataka with a major in Information Technology. I like to code and experiment with new technologies. My interests lie in the field of Artifical Intelligence and Blockchain technology. I like to contribute to Open Source projects in my free time. 
 
