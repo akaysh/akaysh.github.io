@@ -1,11 +1,19 @@
 ---
 permalink: /about/
+published: true
 ---
 
-I'm a software developer from South Birmingham, UK. I've been building web applications for over ten years. Ruby is my language of choice, and vim my editor.
 
-I have a degree in Computer Science from Aberystwyth university. I have worked as a PHP developer in the past before becoming a Ruby on Rails developer. I am currently IT manager for one of the UK's leading online printer ink retailers, Stinkyink.com.
+I'm a software engineer from India. I am currently working at Intuit IDC. I like to code and experiment with new technologies.
 
-When I'm not hacking on code I will most likely be out riding mountain bikes, taking photos or having a beer with friends and family.
+I have a degree in Information Technology from National Institute of Technology, Karnataka. My interests lie in the field of Artificial Intelligence and Blockchain.  
 
-You can contact me via email (or Twitter ) and can view my code / projects on Github.
+Most of my projects are hosted on [github](https://github.com/akaysh).
+
+When I'm not hacking on code I will most likely be playing football, fiddling with my guitar , gaming with my friends or watching some anime.
+
+If our interests match or you just want to say Hi! just drop an email or ping me on twitter. My social networking details are given below my picture.
+
+Thanks for dropping by!
+
+
