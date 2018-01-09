@@ -4,8 +4,8 @@ main:
     url: https://akaysh.github.io/about/
   - title: "Portfolio"
     url: https://akaysh.github.io/portfolio/
-  - title: "Tutorials"
-    url: https://akaysh.github.io/tutorials/
+  # - title: "Tutorials"
+  #  url: https://akaysh.github.io/tutorials/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
