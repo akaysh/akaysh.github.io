@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Tech Space"
+title                    : "Akshay's Blog"
 title_separator          : "-"
 name                     : "Akshay Sharma"
 description              : "My space for Tech rants and Tutorials."
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Akshay Sharma"
   avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a Software Engineer who works at Intuit "
+  bio              : "Software Engineer @ Intuit. An AI and Open Source Enthusiast. "
   location         : "Bangalore"
   email            : "ksh.shrm1@gmail.com"
   uri              :
@@ -246,7 +246,7 @@ defaults:
       share: true
       related: true
       
-      # _pages
+  # _pages
   - scope:
       path: ""
       type: pages
