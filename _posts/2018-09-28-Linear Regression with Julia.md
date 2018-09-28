@@ -57,7 +57,8 @@ scatter(X,y, xaxis="Population", yaxis="Profit")
 
 
 
-![png](Linear%20Regression%20with%20Julia_files/Linear%20Regression%20with%20Julia_7_0.png)
+![LR_Scatter](/assets/images/Linear%20Regression%20with%20Julia_7_0.png "Profit vs Population")
+
 
 
 
@@ -99,7 +100,8 @@ scatter!(X,y, xaxis="Population", yaxis="Profit")
 
 
 
-![png](Linear%20Regression%20with%20Julia_files/Linear%20Regression%20with%20Julia_11_0.png)
+![LR_Scatter2](/assets/images/Linear%20Regression%20with%20Julia_11_0.png "Profit Prediction")
+
 
 
 
@@ -168,7 +170,7 @@ num_tr_ex = length(y_);
 
 
 
-![png](Linear%20Regression%20with%20Julia_files/Linear%20Regression%20with%20Julia_19_0.png)
+![LR_Scatter2](/assets/images/Linear%20Regression%20with%20Julia_19_0.png "Housing Prices")
 
 
 
