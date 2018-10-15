@@ -1,6 +1,3 @@
----
-published: false
----
 
 
 This post is a tutorial on how to do linear regression with single and multiple variables using Julia in the best possible way. I have divided the tutorial in small steps and code snippets with explanations where ever possible. I have used my Jupyter notebook for this post. 
