@@ -1,6 +1,3 @@
----
-published: false
----
 
 
 This post is the next tutorial in the series of ML with Julia. Today we are going to see how to use logistic regression for linear and non-linear classification, how to do feature mapping, and how and where to use regularization.
