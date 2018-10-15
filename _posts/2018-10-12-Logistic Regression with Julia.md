@@ -1,4 +1,9 @@
+---
+published: false
+---
 
+
+This post is the next tutorial in the series of ML with Julia. Today we are going to see how to use logistic regression for linear and non-linear classification, how to do feature mapping, and how and where to use regularization.
 
 ```julia
 using DataFrames, CSV
@@ -9,6 +14,8 @@ pyplot();
 ## Most important thing first! Where is my data?
 
 #### This is a sample data stored in a CSV file ex1data2.txt
+
+You can get the data [here](https://github.com/akaysh/MLWithJulia/blob/master/Example_two/ex2data1.txt).
 
 
 ```julia
@@ -117,11 +124,6 @@ predict(x) = NNlib.σ.(x*W .+ b)
 
 
 
-
-    predict (generic function with 1 method)
-
-
-
 This is the loss function for binary classification ( logistic regression ). We are using Flux's built in binary crossentropy function to calculate the loss. Loss is basically the cost we need to minimize to fit our model on the data.
 
 
@@ -133,10 +135,6 @@ loss(x, y) = sum(binarycrossentropy.(predict(x), y))/num_tr_ex
 
 
 
-    loss (generic function with 1 method)
-
-
-
 
 ```julia
 par = Params([W, b])
@@ -145,10 +143,6 @@ opt = SGD(par, 0.1; decay = 0)
 evalcb() = @show(loss(X, y))
 ```
 
-
-
-
-    evalcb (generic function with 1 method)
 
 
 
@@ -233,11 +227,6 @@ end
 
 
 
-    contour_func_1 (generic function with 1 method)
-
-
-
-
 ```julia
 xs = collect(range(-2,stop=2,length=25))
 ys = collect(range(-2,stop=2,length=25))
@@ -299,6 +288,9 @@ When we have data which cannot be separated into classes with a straight line we
 While the feature mapping allows us to build a more expressive classifier, it also more susceptible to overfitting. In the next parts of the exercise, we will implement regularized logistic regression to fit the data and also see how regularization can help combat the overfitting problem.
 
 Lets get our data!
+
+You can get the data [here](https://github.com/akaysh/MLWithJulia/blob/master/Example_two/ex2data2.txt).
+
 
 
 ```julia
@@ -372,11 +364,6 @@ end
 
 
 
-    map_features (generic function with 1 method)
-
-
-
-
 ```julia
 X1 = X[:,1]
 X2 = X[:,2]
@@ -411,11 +398,6 @@ predict(x) = NNlib.σ.(x*W .+ b)
 
 
 
-
-    predict (generic function with 1 method)
-
-
-
 Here the loss needs a regularization term to counter overfitting. We can regularise this by taking the (L2) norm of the parameters W and b.
 
 
@@ -429,11 +411,6 @@ loss(x, y) = sum(binarycrossentropy.(predict(x), y))/num_tr_ex + sum(norm, par)/
 
 
 
-    loss (generic function with 1 method)
-
-
-
-
 ```julia
 ## Adam optimiser
 # opt = ADAM(params(m); β1 = 0.9, β2 = 0.999, ϵ = 1e-08, decay = 0)
@@ -441,11 +418,6 @@ loss(x, y) = sum(binarycrossentropy.(predict(x), y))/num_tr_ex + sum(norm, par)/
 opt = SGD(par, 0.1; decay = 0)
 evalcb() = @show(loss(X, y))
 ```
-
-
-
-
-    evalcb (generic function with 1 method)
 
 
 
@@ -538,22 +510,12 @@ end
 
 
 
-
-    map_feature_ (generic function with 1 method)
-
-
-
-
 ```julia
 function contour_func(x,y)
     predict(map_feature_(x,y))
 end
 ```
 
-
-
-
-    contour_func (generic function with 1 method)
 
 
 
