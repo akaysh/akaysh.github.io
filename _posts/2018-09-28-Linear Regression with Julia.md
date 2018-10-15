@@ -1,4 +1,9 @@
+---
+published: false
+---
 
+
+This post is a tutorial on how to do linear regression with single and multiple variables using Julia in the best possible way. I have divided the tutorial in small steps and code snippets with explanations where ever possible. I have used my Jupyter notebook for this post. 
 
 ```julia
 using DataFrames, CSV
@@ -9,6 +14,8 @@ pyplot();
 ## Lets get our Data!
 
 #### This is a sample data stored in a CSV file ex1data1.txt
+
+You can get the data [here](https://github.com/akaysh/MLWithJulia/blob/master/Example_one/ex1data1.txt).
 
 
 ```julia
@@ -124,7 +131,9 @@ predict(linearRegressor, newX)*10000
 
 ### Linear Regression with multiple variables
 
-Here the data is house price based on size and number of bedrooms
+Here the data is house price based on size and number of bedrooms.
+
+You can get the data [here](https://github.com/akaysh/MLWithJulia/blob/master/Example_one/ex1data2.txt).
 
 
 ```julia
