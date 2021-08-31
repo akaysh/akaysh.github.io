@@ -4,7 +4,7 @@ published: true
 ---
 
 
-I am a graduate student in College of Information and Computer Sciences at University of Massachusetts Amherst, and I am also working as a software developer at Intuit IDC (TurboTax Desktop Team). I did my bachelors (B.Tech) from National Institute of Technology, Karnataka with a major in Information Technology. I like to solve real world problems with computer programming.
+I am a graduate student in College of Information and Computer Sciences at University of Massachusetts Amherst doing my Masters with a focus on Machine Learning and NLP. I also worked as a software developer at Intuit IDC (TurboTax Desktop Team) from Aug 2017 to July 2021. I did my bachelors (B.Tech) from National Institute of Technology, Karnataka with a major in Information Technology. I am an Open Source contributor and my interests like in Machine Learning and Natural Language Processing. I like to solve real world problems with computer programming.
 
 Most of my projects are hosted on [github](https://github.com/akaysh).
 

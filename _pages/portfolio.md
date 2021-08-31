@@ -4,11 +4,11 @@ published: true
 ---
 
 
-I am a graduate student in College of Information and Computer Sciences at University of Massachusetts Amherst, and I am also working as a software developer at Intuit IDC (TurboTax Desktop Team). I did my bachelors (B.Tech) from National Institute of Technology, Karnataka with a major in Information Technology. I like to solve real world problems with computer programming. My interests lie in the field of Artificial Intelligence viz. Machine Learning, Deep Learning, Natural Language Processing and Reinforcement Learning. I like to contribute to Open Source projects in my free time.
+I am a graduate student in College of Information and Computer Sciences at University of Massachusetts Amherst.I also worked as a software developer at Intuit IDC (TurboTax Desktop Team) from Aug 2017 to July 2021. I did my bachelors (B.Tech) from National Institute of Technology, Karnataka with a major in Information Technology. I like to solve real world problems with computer programming. My interests lie in the field of Artificial Intelligence viz. Machine Learning, Deep Learning, Natural Language Processing and Reinforcement Learning. I like to contribute to Open Source projects in my free time.
 
 ### Resume
 
-Here is the google drive link to my [resume](https://drive.google.com/file/d/1xoARHDJC6wy8iSXX5_2RqAcwA26E5hdw/view?usp=sharing).
+Here is the link to my [resume](https://akaysh.github.io/assets/Akshay_Sharma_s_Resume_long__Latest_.pdf).
 
 ### Publications
 
@@ -23,6 +23,11 @@ I have also implemented the paper in Julia which you can find [here](https://git
 
 ### Courses
 
+- Algorithms for Data Science
+- Machine Learning
+- Advanced Natural Language Processing
+- Reinforcement Learning
+- Neural Networks
 - Systems for Data Sciences
 - Soft Computing
 - Data Structures and Algorithms
