@@ -4,11 +4,11 @@ published: true
 ---
 
 
-I am a graduate student in College of Information and Computer Sciences at University of Massachusetts Amherst.I also worked as a software developer at Intuit IDC (TurboTax Desktop Team) from Aug 2017 to July 2021. I did my bachelors (B.Tech) from National Institute of Technology, Karnataka with a major in Information Technology. I like to solve real world problems with computer programming. My interests lie in the field of Artificial Intelligence viz. Machine Learning, Deep Learning, Natural Language Processing and Reinforcement Learning. I like to contribute to Open Source projects in my free time.
+I am a graduate student in College of Information and Computer Sciences at University of Massachusetts Amherst. I also worked as a software developer at Intuit IDC (TurboTax Desktop Team) from Aug 2017 to July 2021. I did my bachelors (B.Tech) from National Institute of Technology, Karnataka with a major in Information Technology. I like to solve real world problems with computer programming. My interests lie in the field of Artificial Intelligence viz. Machine Learning, Deep Learning, Natural Language Processing and Reinforcement Learning. I like to contribute to Open Source projects in my free time.
 
 ### Resume
 
-Here is the link to my [resume](https://akaysh.github.io/assets/Akshay_Sharma_s_Resume_long__Latest_.pdf).
+Here is the link to my [resume](https://akaysh.github.io/assets/Akshay_Sharma_long.pdf).
 
 ### Publications
 
@@ -21,14 +21,18 @@ I have also implemented the paper in Julia which you can find [here](https://git
 
 - I did a poster presentation for my project during my GSoC 2017 intern at JuliaCon 2017 in Berkely, CA. Here is the link for its [write up](https://julialang.org/blog/2017/10/gsoc-NeuralNetDiffEq).
 
+- At IESL, UMass I worked on annotating a large dataset of scientific peer review text to highlight discourse structure and developed models to automatically detect this structure. Here is the link for the [paper](https://openreview.net/forum?id=HRxG0XibS-c)
+
 ### Courses
 
 - Algorithms for Data Science
 - Machine Learning
 - Advanced Natural Language Processing
+- Conversational AI
 - Reinforcement Learning
 - Neural Networks
 - Systems for Data Sciences
+- Applied Statistics
 - Soft Computing
 - Data Structures and Algorithms
 - Linear Algebra
