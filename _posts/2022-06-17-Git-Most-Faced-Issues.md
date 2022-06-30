@@ -87,13 +87,17 @@ A lot of developers get stuck with version control (specifically git) and spend 
 7. **How do I checkout a remote git branch?**
     
     In both cases, start by fetching from the remote repository to make sure you have all the latest changes downloaded.
-    `git fetch`
+    
+        git fetch
     
     This will fetch all of the remote branches for you. You can see the branches available for checkout with:
-    `git branch -v -a`
     
-    The branches that start with remotes/* can be thought of as read only copies of the remote branches. To work on a branch you need to create a local branch from it. This is done with the Git command switch (since Git 2.23) by giving it the name of the remote branch (minus the remote name):
-    `git switch test`
+        git branch -v -a
+    
+    The branches that start with `remotes/*` can be thought of as read only copies of the remote branches. 
+    To work on a branch you need to create a local branch from it. This is done with the Git command switch (since Git 2.23) by giving it the name of the remote branch (minus the remote name):
+    
+        git switch test
     
     In this case Git is guessing (can be disabled with --no-guess) that you are trying to checkout and track the remote branch with the same name.
 
@@ -123,31 +127,31 @@ A lot of developers get stuck with version control (specifically git) and spend 
     Create a `.gitignore` file inside that directory that contains these four lines:
     
     ```
-     # Ignore everything in this directory
+    # Ignore everything in this directory
     *
     # Except this file
     !.gitignore
-     ```
+    ```
 
  11. **How do I discard unstaged changes in Git?**
     
    For all unstaged files in current working directory use:
-   
-    `git restore .`
+    
+    git restore .
    
    For a specific file use:
    
-    `git restore path/to/file/to/revert`
+    git restore path/to/file/to/revert
     
    **Before Git 2.23**
    
    For all unstaged files in current working directory:
     
-    `git checkout -- .`
+    git checkout -- .
    
    For a specific file:
    
-   `git checkout -- path/to/file/to/revert`
+    git checkout -- path/to/file/to/revert
 
 12. **Move the most recent commit(s) to a new branch with Git**
     Move your commit(s) to an existing branch
